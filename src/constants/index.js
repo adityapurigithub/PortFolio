@@ -20,6 +20,9 @@ import {
   hptu,
   cbse,
   cn,
+  p1,
+  p2,
+  p3,
 } from "../assets";
 
 export const links = [
@@ -202,67 +205,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "YT Clone - React",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Created A Responsive & similar looking App like Youtube. Implemented major features like search,feed , sidebar, channel-video detail pages.API Used-Rapid API",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
+      },
+      {
+        name: "react-player",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: p1,
+    source_code_link: "https://github.com/adityapurigithub/-YtAdyCln",
+  },
+  {
+    name: "Ai Image generator - MERN",
+    description:
+      "A midjourney like ai image generation web app. One can generate any image by typing a prompt. Major Features-Storing on cloudinary and one can download and see and share all the generated images in the community section.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "green-text-gradient",
       },
       {
         name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "cloudinary",
+        color: "green-text-gradient",
+      },
     ],
-    image: cbse,
-    source_code_link: "https://github.com/",
+    image: p2,
+    source_code_link: "https://github.com/adityapurigithub/AImagination",
   },
   {
-    name: "Job IT",
+    name: "ToDo App- MERN",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A full stack todo application with CRUD functionality, and also with user authentication done using Passport JWT.",
     tags: [
       {
-        name: "react",
+        name: "MERN - stack",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "passport jwt",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: cbse,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: cbse,
-    source_code_link: "https://github.com/",
+    image: p3,
+    source_code_link: "https://github.com/adityapurigithub/mern_todo",
   },
 ];
 
