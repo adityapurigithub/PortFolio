@@ -74,7 +74,7 @@ const Projects = () => {
     <>
       <motion.div variants={zoomIn(0.2, 1)}>
         <p className={styles.sectionSubText}>My Work</p>
-        <h2 className={styles.sectionHeadText}>My Work</h2>
+        <h2 className={styles.sectionHeadText}>Projects</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("left", "spring", 0.5, 1)}
