@@ -31,7 +31,7 @@ const Hero = () => {
 
   return (
     <section
-      className={`relative max-w-7xl mx-auto w-full h-screen sm:top-[100px] top-[120px] flex flex-col transition-all duration-1000  ${styles.paddingX} sm:mb-12 mb-24`}
+      className={`relative max-w-7xl mx-auto w-full h-screen sm:top-[60px] top-[120px] flex flex-col transition-all duration-1000  ${styles.paddingX} sm:mb-12 mb-24`}
     >
       <div className="flex justify-start items-start">
         <div className="flex flex-col items-center mr-6">
@@ -52,14 +52,14 @@ const Hero = () => {
         </motion.div>
       </div>
       <motion.div
-        className="w-full flex justify-center"
+        className="w-full flex justify-center items-center absolute sm:bottom-[100px] bottom-[180px] right-[1px]"
         variants={fadeIn()}
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.25 }}
       >
         <img
-          className="w-[400px] mt-4 object-cover"
+          className="sm:w-[380px] w-[350px] mt-4 object-cover "
           src={computer}
           alt="logo"
         />

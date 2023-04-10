@@ -26,7 +26,7 @@ const Navbar = () => {
     <nav
       className={`${
         navDark && "bg-[#050816]"
-      } transition-all duration-700 w-full ${styles.paddingX} fixed top-0 z-20`}
+      } transition-all duration-700 w-full ${styles.paddingX} z-20`}
     >
       <div className="w-full max-w-7xl flex justify-between items-center mx-auto py-6">
         <Link
@@ -42,7 +42,7 @@ const Navbar = () => {
             src={logo}
             alt="A-logo"
           />
-          <p className="text-[25px] font-semibold italic tracking-[2px]">
+          <p className="sm:text-[25px] text-[15px] font-semibold italic">
             Aditya Puri
           </p>
         </Link>

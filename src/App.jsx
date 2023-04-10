@@ -7,7 +7,7 @@ import { Navbar, Hero, About, Education, Skills, Projects } from "./Components";
 function App() {
   return (
     <Router>
-      <div className="bg-[#050816] text-white">
+      <div className="bg-[#050816] text-white overflow-x-hidden">
         <div className="flex flex-col bg-hero bg-no-repeat bg-cover">
           <Navbar />
           <Hero />
