@@ -3,7 +3,15 @@ import { Link } from "react-router-dom";
 import { styles } from "./style";
 import { BrowserRouter as Router } from "react-router-dom";
 import { menu, close } from "./assets";
-import { Navbar, Hero, About, Education, Skills, Projects } from "./Components";
+import {
+  Navbar,
+  Hero,
+  About,
+  Education,
+  Skills,
+  Projects,
+  Contact,
+} from "./Components";
 function App() {
   return (
     <Router>
@@ -16,6 +24,7 @@ function App() {
         <Education />
         <Skills />
         <Projects />
+        <Contact />
       </div>
     </Router>
   );
